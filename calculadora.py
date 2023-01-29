@@ -9,7 +9,7 @@ if primero == 'no son numeros':
     print('el valor ingresado no es un numero')
     exit()
     
-segundo = input('Ingrese segundo numero')
+segundo = input('Ingrese segundo numero: ')
 
 try:
     segundo = int(segundo)
